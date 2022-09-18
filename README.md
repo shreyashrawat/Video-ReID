@@ -20,6 +20,5 @@ I finetuned the model on 20 epochs on the mars dataset with train_batch size as 
 
 ![image](https://user-images.githubusercontent.com/38159161/190922644-b327a503-a1a4-4369-9c58-7633df409e96.png)
 
-
-
+So the results on a 3rd dataset produced these results where rank@1 which is essentially for the model was around 62% and mAP (mean average precision) was around 60%. Due to the crunch in time, I trained the model only on 20 epochs that led to average results which could have been improved with more experimentation and epochs.
 
