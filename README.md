@@ -16,3 +16,10 @@ I went ahead with a resnet 50 pretrained model mainly due to it's past performan
 
 ![image](https://user-images.githubusercontent.com/38159161/190922183-0bc505ef-26e4-43dd-89af-d18e50b8bfb9.png)
 
+I finetuned the model on 20 epochs on the mars dataset with train_batch size as 3 and sequence_len as 15. The following is an image for training in progress. The training took about 5-6 hours due to absence of fast GPUs.
+
+![image](https://user-images.githubusercontent.com/38159161/190922644-b327a503-a1a4-4369-9c58-7633df409e96.png)
+
+
+
+
