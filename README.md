@@ -22,3 +22,6 @@ I finetuned the model on 20 epochs on the mars dataset with train_batch size as 
 
 So the results on a 3rd dataset produced these results where rank@1 which is essentially for the model was around 62% and mAP (mean average precision) was around 60%. Due to the crunch in time, I trained the model only on 20 epochs that led to average results which could have been improved with more experimentation and epochs.
 
+## Implementation
+
+The run_reid is the code used to train and test the model on the mars dataset after the deep-person-reid environment has been setup. Make sure the conda env is created and active after which the python script will do the training and testing.
